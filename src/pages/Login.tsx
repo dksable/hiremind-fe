@@ -54,9 +54,6 @@ export default function Login() {
               {loading ? <><Loader2 className="h-4 w-4 mr-2 animate-spin" /> Signing in…</> : "Sign In"}
             </Button>
             <Button type="button" variant="outline" className="w-full">
-              test1
-            </Button>
-            <Button type="button" variant="outline" className="w-full">
               test2
             </Button>
             <div className="text-xs text-muted-foreground bg-muted rounded-md p-3 space-y-1">
