@@ -53,15 +53,6 @@ export default function Login() {
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? <><Loader2 className="h-4 w-4 mr-2 animate-spin" /> Signing in…</> : "Sign In"}
             </Button>
-            <Button type="button" variant="outline" className="w-full">
-              test1
-            </Button>
-            <Button type="button" variant="outline" className="w-full">
-              test2
-            </Button>
-            <Button type="button" variant="outline" className="w-full">
-              test3
-            </Button>
             <div className="text-xs text-muted-foreground bg-muted rounded-md p-3 space-y-1">
               <div className="font-semibold">Demo credentials:</div>
               <div>admin@demo.com / admin123</div>
